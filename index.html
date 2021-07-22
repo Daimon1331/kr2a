@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+
+    <!-- Meta -->
+    <!-- Page Description Here -->
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!-- Disable screen scaling-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+<header>
+    <div class="margin">
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="logo-top">
+                <a class="logo" href="#">KR2A</a>
+            </div>
+            <nav>
+                <ul class="d-flex justify-content-between">
+                    <li class="nav-text">
+                        <a href="#benefits">Преимущества</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#box-chart">Характеристики</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#production-options">Применение</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#questions">Вопросы</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#form-contacts">Где купить</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="button-burger btn btn-primary" data-bs-toggle="modal" data-bs-target="#burgerModal">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 10V11.5H26V10H6ZM6 15.25V16.75H26V15.25H6ZM6 20.5V22H26V20.5H6Z" fill="#EE1C25"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="modal fade" id="burgerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="margin">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="logo-top">
+                            <a class="logo" href="#">KR2A</a>
+                        </div>
+                        <div class="button-burger" data-bs-toggle="modal" data-bs-target="#burgerModal">
+                            <img alt="certification" src="img/close.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <nav>
+                    <ul class="d-flex flex-column justify-content-between align-items-end">
+                        <li class="nav-text" data-bs-toggle="modal"  data-bs-target="#burgerModal">
+                            <a href="#benefits">Преимущества</a>
+                        </li>
+                        <li class="nav-text" data-bs-toggle="modal"  data-bs-target="#burgerModal">
+                            <a href="#box-chart">Характеристики</a>
+                        </li>
+                        <li class="nav-text" data-bs-toggle="modal"  data-bs-target="#burgerModal">
+                            <a href="#production-options">Применение</a>
+                        </li>
+                        <li class="nav-text" data-bs-toggle="modal"  data-bs-target="#burgerModal">
+                            <a href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="nav-text" data-bs-toggle="modal"  data-bs-target="#burgerModal">
+                            <a href="#questions">Вопросы</a>
+                        </li>
+                        <li class="nav-text" data-bs-toggle="modal"  data-bs-target="#burgerModal">
+                            <a href="#form-contacts">Где купить</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="preview-swiper" id="preview-swiper">
+    <div class="margin">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="d-flex slide1">
+                        <div class="img-swiper">
+                            <img src="img/imgswiper1.png">
+                        </div>
+                        <div class="d-flex flex-column align-items-center info-swiper">
+                            <h5 class="h5">Время дать отпор шлифовальной пыли</h5>
+                            <p class="text-medium-16">Узнайте, какое оборудование для
+                                удаления пыли оптимально для вашего производства</p>
+                            <div class="d-flex align-items-center button-arrow">
+                                <div><a class="button-red" data-bs-toggle="modal" data-bs-target="#formModalRequest">Узнать больше</a></div>
+                                <div class="button-slide-next">
+                                    <svg width="67" height="8" viewBox="0 0 67 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M66.3536 4.35355C66.5488 4.15829 66.5488 3.84171 66.3536 3.64645L63.1716 0.464466C62.9763 0.269204 62.6597 0.269204 62.4645 0.464466C62.2692 0.659728 62.2692 0.976311 62.4645 1.17157L65.2929 4L62.4645 6.82843C62.2692 7.02369 62.2692 7.34027 62.4645 7.53553C62.6597 7.7308 62.9763 7.7308 63.1716 7.53553L66.3536 4.35355ZM0 4.5L66 4.5V3.5L0 3.5L0 4.5Z" fill="#EE1C25"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="d-flex slide2">
+                        <div class="img-swiper">
+                            <img src="img/imgswiper2.png">
+                        </div>
+                        <div class="d-flex flex-column align-items-center info-swiper">
+                            <h5 class="h5">Время дать отпор шлифовальной пыли</h5>
+                            <p class="text-medium-16">Узнайте, какое оборудование для
+                                удаления пыли оптимально для вашего производства</p>
+                            <div class="d-flex align-items-center button-arrow">
+                                <div><a class="button-red" data-bs-toggle="modal" data-bs-target="#formModalRequest">Узнать больше</a></div>
+                                <div class="button-slide-prev">
+                                    <svg width="67" height="8" viewBox="0 0 67 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M66.3536 4.35355C66.5488 4.15829 66.5488 3.84171 66.3536 3.64645L63.1716 0.464466C62.9763 0.269204 62.6597 0.269204 62.4645 0.464466C62.2692 0.659728 62.2692 0.976311 62.4645 1.17157L65.2929 4L62.4645 6.82843C62.2692 7.02369 62.2692 7.34027 62.4645 7.53553C62.6597 7.7308 62.9763 7.7308 63.1716 7.53553L66.3536 4.35355ZM0 4.5L66 4.5V3.5L0 3.5L0 4.5Z" fill="#EE1C25"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="swiper-pagination"></div>-->
+<!--            <div class="swiper-button-prev"></div>-->
+<!--            <div class="swiper-button-next"></div>-->
+        </div>
+    </div>
+</section>
+<section class="rupes-kr2a">
+    <div class="d-flex justify-content-around align-items-center margin">
+        <div class="img-rupes">
+<!--            <img src="img/rupes.png">-->
+            <picture class="border-paper">
+                <source srcset="img/rupes_mob.png" media="(max-width: 991px)">
+                <img alt="samsung" src="img/rupes.png">
+            </picture>
+        </div>
+        <div class="d-flex flex-column txt-rupes">
+            <h3 class="h3-source">Турбина Rupes KR2A</h3>
+            <p class="text-medium-16">лучшее индустриальное решение для удаления шлифованной пыли</p>
+        </div>
+    </div>
+    <div class="margin">
+        <div class="d-flex flex-column kr2a">
+            <p>KR2A</p>
+            <p class="text-medium-16">ПОЗВОЛИТ ВАМ ПОВЫСИТЬ КАЧЕСТВО ШЛИФОВАНИЯ И СОКРАТИТЬ ЗАТРАТЫ</p>
+            <div class="arrow-red">
+                <img src="img/arrow_red.svg">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="benefits" id="benefits">
+    <div class="margin">
+        <h2 class="h2">Преимущества</h2>
+        <div class="box-swiper-pagination">
+        <div class="d-flex align-items-center justify-content-evenly box-swiper-button">
+            <div class="swiper-button-prev">
+                <div class="arrow-swiper2">
+                    <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.17676 1.77037L9.35794 4.949H0V6.85026H9.35794L6.17676 10.0289L7.52227 11.3734L13 5.89963L7.52227 0.426025L6.17676 1.77037Z" fill="#4F4F4F"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="d-flex flex-column box-slide">
+                            <h3 class="h3">Увеличение срока службы оборудования</h3>
+                            <p class="text-medium-16">Постоянный продув каналов шлифмашинки
+                                уменьшает загрязнение внутренних частей, предотвращает перегрев и повышенный износ элементов</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide1_1.jpg">
+                                    </div>
+                                    <p class="description-slide">Шлифмашинка при работе
+                                        с пылеудалением через KR2A</p>
+                                </div>
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide1_2.jpg">
+                                    </div>
+                                    <p class="description-slide">Шлифмашинка при работе без пылеудаления</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex flex-column box-slide">
+                            <h3 class="h3">Снижение расхода абразивных дисков</h3>
+                            <p class="text-medium-16">Эффективное удаление пыли уменьшает забиваемость абразивных
+                                дисков, существенно увеличивает их срок службы</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide2_1.jpg">
+                                    </div>
+                                    <p class="description-slide">Абразив при работе с
+                                        пылеудалением через KR2A</p>
+                                </div>
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide2_2.jpg">
+                                    </div>
+                                    <p class="description-slide">Абразив при работе без пылеудаления</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex flex-column box-slide">
+                            <h3 class="h3">Комфортные и безопасные условия работы шлифовщиков</h3>
+                            <p class="text-medium-16">Чистый воздух без пыли – залог здоровья шлифовщиков,
+                                пожаро- и взрыво- безопасности цеха</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide3_1.jpg">
+                                    </div>
+                                    <p class="description-slide">Условия при работе с пылеудалением через KR2A</p>
+                                </div>
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide3_2.jpg">
+                                    </div>
+                                    <p class="description-slide">Условия при работе без пылеудаления</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex flex-column box-slide">
+                            <h3 class="h3">Высокая производительность шлифования</h3>
+                            <p class="text-medium-16">Эффективное удаление пыли препятствует ее скапливанию под машинкой,
+                                что улучшает контакт абразива с поверхностью и повышает производительность шлифования</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide4_1.jpg">
+                                    </div>
+                                    <p class="description-slide">При работе с пылеудалением через KR2A</p>
+                                </div>
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide4_2.jpg">
+                                    </div>
+                                    <p class="description-slide">При работе без пылеудаления</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex flex-column box-slide">
+                            <h3 class="h3">Высокое качество шлифования</h3>
+                            <p class="text-medium-16">Эффективное удаление пыли существенно повышает равномерность
+                                шлифования, что способствует улучшению качества отделки.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide5_1.jpg">
+                                    </div>
+                                    <p class="description-slide">Качество шлифования при пылеудалении через KR2A</p>
+                                </div>
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide5_2.jpg">
+                                    </div>
+                                    <p class="description-slide">Качество шлифования при работе без пылеудаления</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex flex-column box-slide">
+                            <h3 class="h3">Эффективность удаления пыли с KR2A значительно выше, чем при использовании шлифовального стола с аспирацией</h3>
+                            <p class="text-medium-16">На шлифовальном столе пыль удаляется только после ее выхода
+                                за пределы шлифуемой заготовки, поэтому при работе с заготовками большой площади она остается в зоне шлифования, препятствуя качественной обработке и забивая абразивы.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide6_1.jpg">
+                                    </div>
+                                    <p class="description-slide">При использовании KR2A</p>
+                                </div>
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide6_2.jpg">
+                                    </div>
+                                    <p class="description-slide">При использовании шлифовального стола</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex flex-column box-slide">
+                            <h3 class="h3">Срок эксплуатации KR2A в 6 раз больше срока эксплуатации промышленного пылесоса</h3>
+                            <p class="text-medium-16">Турбина KR2A - индустриальное оборудование, рассчитанное на большой объем загрузки и бесперебойную работу с низкими эксплуатационными затратами</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide7_1.jpg">
+                                    </div>
+                                    <p class="description-slide">Турбина KR2A – для средних и крупных предприятий</p>
+                                </div>
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/slide7_2.jpg">
+                                    </div>
+                                    <p class="description-slide">Пылесосы Rupes – для малых предприятий</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next">
+                <div class="arrow-swiper2">
+                    <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.17676 1.77037L9.35794 4.949H0V6.85026H9.35794L6.17676 10.0289L7.52227 11.3734L13 5.89963L7.52227 0.426025L6.17676 1.77037Z" fill="#4F4F4F"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+            <div class="justify-content-evenly button-mob">
+                <div class="swiper-button-prev">
+                    <div class="arrow-swiper2">
+                        <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.17676 1.77037L9.35794 4.949H0V6.85026H9.35794L6.17676 10.0289L7.52227 11.3734L13 5.89963L7.52227 0.426025L6.17676 1.77037Z" fill="#4F4F4F"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <div class="arrow-swiper2">
+                        <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.17676 1.77037L9.35794 4.949H0V6.85026H9.35794L6.17676 10.0289L7.52227 11.3734L13 5.89963L7.52227 0.426025L6.17676 1.77037Z" fill="#4F4F4F"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="d-flex flex-column box-chart" id="box-chart">
+            <div class="img-chart">
+                <picture class="border-paper">
+                    <source srcset="img/chart_mob.svg" media="(max-width: 700px)">
+                    <img alt="samsung" src="img/chart.svg">
+                </picture>
+            </div>
+            <div class="d-flex justify-content-between description-chart">
+                <p class="text-medium-16"><span></span>В турбинах не используются электрические
+                    моторы, требующие замены щеток через каждые 800 часов работы;</p>
+                <p class="text-medium-16"><span></span>Использование мешков для сбора пыли в
+                    турбине не является обязательным;</p>
+                <p class="text-medium-16"><span></span>Энергоэффективность турбины соответствует
+                    требованиям европейских стандартов.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="buy">
+    <div class="margin">
+        <div class="d-flex justify-content-between">
+            <button class="button-red">Стоимость установки в вашем регионе</button>
+            <button class="button-white">Скачать дополнительную информацию</button>
+        </div>
+    </div>
+</section>
+<section class="box-video">
+    <div class="d-flex margin">
+        <div class="d-flex flex-column justify-content-center description-video">
+            <h1 class="h1">Rupes KR2A</h1>
+            <p class="text-medium-16">основные узлы и характеристики</p>
+        </div>
+        <div class="box-video">
+
+        </div>
+    </div>
+</section>
+<section class="download-specifications">
+    <div class="margin">
+        <div class="box-arrow">
+            <button class="button-white" data-bs-toggle="modal" data-bs-target="#formModalBuy">Скачать лист технических характеристик Rupes KR2A</button>
+            <div class="arrow-red">
+                <img src="img/arrow_red.svg">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="production-options" id="production-options">
+    <div class="margin">
+        <div class="d-flex flex-column">
+            <h2 class="h2-source">Для каких производств подойдет установка KR2A?</h2>
+            <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column box-img">
+                    <div class="img-production">
+                        <img src="img/productions1.jpg">
+                    </div>
+                    <p class="text-bold-18">Предприятия по производству мебели
+                        и столярно-строительных изделий</p>
+                </div>
+                <div class="d-flex flex-column box-img">
+                    <div class="img-production">
+                        <img src="img/productions2.jpg">
+                    </div>
+                    <p class="text-bold-18">Предприятия производства и ремонта
+                        автомобильного и железнодорожного транспорта</p>
+                </div>
+                <div class="d-flex flex-column box-img">
+                    <div class="img-production">
+                        <img src="img/productions3.jpg">
+                    </div>
+                    <p class="text-bold-18">Мастерские строительства и
+                        ремонта водного транспорта</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="discount">
+    <div class="margin">
+        <div class="box-arrow">
+            <a class="button-red">Получить скидку при заказе через сайт</a>
+            <div class="arrow-red">
+                <img src="img/arrow_red.svg">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reviews" id="reviews">
+    <div class="margin">
+        <div class="d-flex flex-column">
+            <h2 class="h2">Отзывы</h2>
+            <div class="box-swiper-pagination">
+                <div class="d-flex align-items-center justify-content-evenly box-swiper-button">
+                    <div class="swiper-button-prev">
+                        <div class="arrow-swiper2">
+                            <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.17676 1.77037L9.35794 4.949H0V6.85026H9.35794L6.17676 10.0289L7.52227 11.3734L13 5.89963L7.52227 0.426025L6.17676 1.77037Z" fill="#4F4F4F"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+
+                                        <div class="d-flex flex-column box-img">
+                                            <div class="img-slide">
+                                                <img src="img/swiper3slide.jpg">
+                                            </div>
+                                            <p class="text-bold-18">Мобильная турбина RUPES KR2A на ООО Пожснаб: отзыв по опыту эксплуатации</p>
+                                        </div>
+
+                            </div>
+                            <div class="swiper-slide">
+
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/swiper3slide.jpg">
+                                    </div>
+                                    <p class="text-bold-18">Мобильная турбина RUPES KR2A на ООО Пожснаб: отзыв по опыту эксплуатации</p>
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide">
+
+                                <div class="d-flex flex-column box-img">
+                                    <div class="img-slide">
+                                        <img src="img/swiper3slide.jpg">
+                                    </div>
+                                    <p class="text-bold-18">Мобильная турбина RUPES KR2A на ООО Пожснаб: отзыв по опыту эксплуатации</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <div class="arrow-swiper2">
+                            <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.17676 1.77037L9.35794 4.949H0V6.85026H9.35794L6.17676 10.0289L7.52227 11.3734L13 5.89963L7.52227 0.426025L6.17676 1.77037Z" fill="#4F4F4F"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="justify-content-evenly button-mob">
+                    <div class="swiper-button-prev">
+                        <div class="arrow-swiper2">
+                            <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.17676 1.77037L9.35794 4.949H0V6.85026H9.35794L6.17676 10.0289L7.52227 11.3734L13 5.89963L7.52227 0.426025L6.17676 1.77037Z" fill="#4F4F4F"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <div class="arrow-swiper2">
+                            <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.17676 1.77037L9.35794 4.949H0V6.85026H9.35794L6.17676 10.0289L7.52227 11.3734L13 5.89963L7.52227 0.426025L6.17676 1.77037Z" fill="#4F4F4F"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="questions" id="questions">
+    <div class="margin">
+        <div class="d-flex flex-column">
+            <div class="box-arrow">
+                <h2 class="h2">Часто задаваемые вопросы</h2>
+                <div class="arrow-red">
+                    <img src="img/arrow_red.svg">
+                </div>
+            </div>
+            <div class="d-flex flex-column container-collapse">
+                <div class="box-collapse">
+                <div class="d-flex button-collapse">
+                    <div class="button-plus">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <p class="text-mobile">Какова продолжительность гарантийного срока?</p>
+                </div>
+                    <p class="text-mobile open-collapse">Гарантийный срок на турбину
+                        Rupes KR2A составляет 24 месяца.</p>
+                </div>
+                <div class="box-collapse">
+                <div class="d-flex button-collapse">
+                    <div class="button-plus">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <p class="text-mobile">Требуется ли подключение линии сжатого воздуха, если я
+                        планирую подключать только электрические шлифовальные машинки?</p>
+                </div>
+                    <p class="text-mobile open-collapse">Да, сжатый воздух необходим для
+                        автоматической очистки фильтра турбины.</p>
+                </div>
+                <div class="box-collapse">
+                    <div class="d-flex button-collapse">
+                        <div class="button-plus">
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <p class="text-mobile">Можно ли использовать турбину
+                            Rupes KR2A для удаления пыли при шлифовании стекловолокна?</p>
+                    </div>
+                    <p class="text-mobile open-collapse">Турбина Rupes KR2A – оптимальное
+                        решение для работы со стекловолокном, поскольку тефлоновый фильтр
+                        турбины значительно более устойчив к забиванию пылью по сравнению
+                        с полиэстерными или бумажными фильтрами пылесосов.</p>
+                </div>
+                <div class="box-collapse">
+                    <div class="d-flex button-collapse">
+                        <div class="button-plus">
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <p class="text-mobile">В какие регионы возможна доставка оборудования?</p>
+                    </div>
+                    <p class="text-mobile open-collapse">Мы поставляем турбины Rupes KR2A
+                        предприятиям в Российской Федерации, Украине, Республике Беларусь,
+                        Республике Казахстан.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="form-contacts" id="form-contacts">
+    <div class="margin">
+        <div class="d-flex box-form-contacts">
+            <div class="d-flex flex-column flexform">
+                <h2 class="h2">Где купить</h2>
+                <form action="/" class="d-flex flex-column ajax-form" method="post">
+                    <div class="d-flex justify-content-between box-entryfield">
+                        <div class="d-flex flex-column">
+                            <div class="input-valid">
+                                <input class="entryfield text-mobile name" type="text"  autocomplete="off" id="name" placeholder="Фамилия Имя Отчество*" name="name" required>
+                                <p>Please enter valid name</p>
+                                <img class="valid-img" src="img/valid.svg">
+                                <img class="invalid-img" src="img/invalid.svg">
+                            </div>
+                            <div class="input-valid">
+                                <input class="entryfield text-mobile country" type="text"  autocomplete="off" id="country" placeholder="Страна*" name="country" required>
+                                <p>Please enter valid name</p>
+                                <img class="valid-img" src="img/valid.svg">
+                                <img class="invalid-img" src="img/invalid.svg">
+                            </div>
+                            <div class="input-valid">
+                                <input class="entryfield text-mobile organization" type="text"  autocomplete="off" id="organization" placeholder="Организация*" name="organization" required>
+                                <p>Please enter valid name</p>
+                                <img class="valid-img" src="img/valid.svg">
+                                <img class="invalid-img" src="img/invalid.svg">
+                            </div>
+                            <div class="input-valid">
+                                <input class="entryfield input-mask__phone text-mobile phone" pattern="\+375\s?[\(]{0,1}(25|29|33|44)[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" type="text" id="phone" placeholder="Телефон*" name="phone" required>
+                                <p>Please enter valid name</p>
+                                <img class="valid-img" src="img/valid.svg">
+                                <img class="invalid-img" src="img/invalid.svg">
+                            </div>
+                            <div class="input-valid">
+                                <input class="entryfield input-mask__mail text-mobile mail" type="text" pattern="(\w+@\w+?\.[a-zA-Z]{2,6})" id="mail" placeholder="Email*" name="mail" required>
+                                <p>Please enter valid name</p>
+                                <img class="valid-img" src="img/valid.svg">
+                                <img class="invalid-img" src="img/invalid.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="button-red">Отправить</button>
+                </form>
+            </div>
+            <div class="d-flex flex-column contacts">
+                <h2 class="h2">Контакты</h2>
+                <div class="d-flex flex-column tel-mail">
+                    <div class="d-flex flex-column tel">
+                        <p class="text-bold-18">Телефоны:</p>
+                        <div class="d-flex">
+                            <a href="tel:+ 375291565656">+ 375 29 156 56 56</a>
+                            <p>в Российской Федерации</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="tel:+ 375291565656">+ 375 29 156 56 56</a>
+                            <p>в Украине</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="tel:+ 375291565656">+ 375 29 156 56 56</a>
+                            <p>в Республике Беларусь</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="tel:+ 375291565656">+ 375 29 156 56 56</a>
+                            <p>в Республике Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column mail">
+                        <p class="text-bold-18">E-mail</p>
+                        <a href="mailto:blabla@gmail.com">blabla@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="button-up">
+    <a href="#preview-swiper" class="d-flex flex-column align-items-center">
+        <div class="arrow-up">
+<!--            <img src="img/arrow_up.svg">-->
+            <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.33506 7.981L5.83279 4.56946L5.79203 14.6466L7.87587 14.655L7.91663 4.57791L11.3866 8.01769L12.8661 6.57474L6.89057 0.651732L0.867475 6.5261L2.33506 7.981Z" fill="#EE1C25"/>
+            </svg>
+        </div>
+        <p>Наверх</p>
+    </a>
+</section>
+<footer>
+    <div class="margin">
+        <div class="logo-top-mob">
+            <a class="logo" href="#">KR2A</a>
+        </div>
+        <div class="d-flex justify-content-between box-footer">
+            <div class="logo-top">
+                <a class="logo" href="#">KR2A</a>
+            </div>
+            <nav>
+                <ul class="d-flex flex-column">
+                    <li class="nav-text">
+                        <a href="#benefits">Преимущества</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#box-chart">Характеристики</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#production-options">Применение</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#questions">Вопросы</a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#form-contacts">Где купить</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="d-flex flex-column list-link">
+                <a href="#">Скачать лист технических характеристик Rupes KR2A</a>
+                <a href="#">Скачать дополнительную информацию</a>
+                <a href="#">Стоимость установки в вашем регионе</a>
+            </div>
+            <div class="d-flex flex-column tel">
+                <p class="text-bold-18">Контакты</p>
+                <p>Телефоны:</p>
+                <div class="d-flex">
+                    <a href="tel:+ 375291565656">+ 375 29 156 56 56</a>
+                    <p>в Российской Федерации</p>
+                </div>
+                <div class="d-flex">
+                    <a href="tel:+ 375291565656">+ 375 29 156 56 56</a>
+                    <p>в Украине</p>
+                </div>
+                <div class="d-flex">
+                    <a href="tel:+ 375291565656">+ 375 29 156 56 56</a>
+                    <p>в Республике Беларусь</p>
+                </div>
+                <div class="d-flex">
+                    <a href="tel:+ 375291565656">+ 375 29 156 56 56</a>
+                    <p>в Республике Казахстан</p>
+                </div>
+                <div class="d-flex flex-column mail-mob">
+                    <p class="text-bold-18">E-mail</p>
+                    <a href="mailto:blabla@gmail.com">blabla@gmail.com</a>
+                </div>
+            </div>
+            <div class="d-flex flex-column mail">
+                <p class="text-bold-18">E-mail</p>
+                <a href="mailto:blabla@gmail.com">blabla@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal fade" id="formModalBuy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex flex-column modal-body">
+                <div class="button-burger btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/close.svg">
+                </div>
+                <div class="d-flex flex-column flexform">
+                    <h2 class="h2">Скачать файл</h2>
+                    <p>Для скачивания документа, пожалуйста, заполните форму</p>
+                    <form action="/" class="d-flex flex-column" method="post">
+                        <div class="d-flex justify-content-between box-entryfield">
+                            <div class="d-flex flex-column">
+                                <div class="input-valid">
+                                    <input class="entryfield text-mobile name" type="text"  autocomplete="off" id="name" placeholder="Фамилия Имя Отчество*" name="name" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                                <div class="input-valid">
+                                    <input class="entryfield text-mobile country" type="text"  autocomplete="off" id="country" placeholder="Страна*" name="country" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                                <div class="input-valid">
+                                    <input class="entryfield text-mobile organization" type="text"  autocomplete="off" id="organization" placeholder="Организация*" name="organization" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                                <div class="input-valid">
+                                    <input class="entryfield input-mask__phone text-mobile phone" pattern="\+375\s?[\(]{0,1}(25|29|33|44)[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" type="text" id="phone" placeholder="Телефон*" name="phone" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                                <div class="input-valid">
+                                    <input class="entryfield input-mask__mail text-mobile mail" type="text" pattern="(\w+@\w+?\.[a-zA-Z]{2,6})" id="mail" placeholder="Email*" name="mail" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Поля, помеченные <span>*</span>, являются обязательными для заполнения</p>
+                        <button type="submit" class="button-red" data-bs-toggle="modal" data-bs-target="#formModalBuy">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="formModalRequest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex flex-column modal-body">
+                <div class="button-burger btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/close.svg">
+                </div>
+                <div class="d-flex flex-column flexform">
+                    <h2 class="h2">Где купить</h2>
+                    <p>Для получения информации, пожалуйста, заполните форму</p>
+                    <form action="/" class="d-flex flex-column ajax-form" method="post">
+                        <div class="d-flex justify-content-between box-entryfield">
+                            <div class="d-flex flex-column">
+                                <div class="input-valid">
+                                    <input class="entryfield text-mobile name" type="text"  autocomplete="off" id="name" placeholder="Фамилия Имя Отчество*" name="name" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                                <div class="input-valid">
+                                    <input class="entryfield text-mobile country" type="text"  autocomplete="off" id="country" placeholder="Страна*" name="country" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                                <div class="input-valid">
+                                    <input class="entryfield text-mobile organization" type="text"  autocomplete="off" id="organization" placeholder="Организация*" name="organization" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                                <div class="input-valid">
+                                    <input class="entryfield input-mask__phone text-mobile phone" pattern="\+375\s?[\(]{0,1}(25|29|33|44)[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" type="text" id="phone" placeholder="Телефон*" name="phone" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                                <div class="input-valid">
+                                    <input class="entryfield input-mask__mail text-mobile mail" type="text" pattern="(\w+@\w+?\.[a-zA-Z]{2,6})" id="mail" placeholder="Email*" name="mail" required>
+                                    <p>Please enter valid name</p>
+                                    <img class="valid-img" src="img/valid.svg">
+                                    <img class="invalid-img" src="img/invalid.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Поля, помеченные <span>*</span>, являются обязательными для заполнения</p>
+                        <button type="submit" class="button-red" data-bs-toggle="modal" data-bs-target="#formModalRequest">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="formModalThanks" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex flex-column modal-body">
+                <div class="button-burger btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/close.svg">
+                </div>
+                <div class="d-flex flex-column flexform">
+                    <h5 class="h5">Спасибо, наш менеджер свяжется c вами в ближайшее время!</h5>
+                        <button class="button-red" data-bs-toggle="modal" data-bs-target="#formModalThanks">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="formModalDownload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex flex-column modal-body">
+                <div class="button-burger btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/close.svg">
+                </div>
+                <div class="d-flex flex-column flexform">
+                    <div class="img-load">
+                        <svg width="40" height="50" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M34.0915 38.0002H5.90835C5.02475 38.0002 4.30835 37.2782 4.30835 36.3878V27.1622C4.30835 26.2718 5.02475 25.5498 5.90835 25.5498C6.79195 25.5498 7.50835 26.2718 7.50835 27.1622V34.775H32.4911V27.1622C32.4911 26.2718 33.2075 25.5498 34.0911 25.5498C34.9747 25.5498 35.6911 26.2718 35.6911 27.1622V36.3874C35.6915 37.2782 34.9751 38.0002 34.0915 38.0002Z" fill="#EE1C25"/>
+                            <path d="M27.926 18.7864L21.13 25.632C20.95 25.8132 20.726 25.9544 20.474 26.0312C20.422 26.0472 20.37 26.0596 20.318 26.0716C20.218 26.0916 20.11 26.104 19.998 26.104C19.73 26.104 19.478 26.0396 19.258 25.9184C19.21 25.8944 19.166 25.866 19.122 25.8376C19.078 25.8096 19.034 25.7772 18.99 25.7408C18.946 25.7084 18.906 25.6724 18.87 25.632L12.074 18.7868C11.45 18.158 11.45 17.134 12.074 16.5052C12.702 15.8764 13.714 15.8764 14.338 16.5052L18.398 20.6012V3.6124C18.398 2.7216 19.118 2 19.998 2C20.882 2 21.598 2.7216 21.598 3.6124V20.6004L25.662 16.5044C26.286 15.8756 27.298 15.8756 27.926 16.5044C28.55 17.1336 28.55 18.1576 27.926 18.7864Z" fill="#EE1C25"/>
+                        </svg>
+                    </div>
+                    <h5 class="h5">Спасибо, теперь вы можете скачать файл</h5>
+                    <a target="_blank" href="https://truefactory.expert/oborydovanie/istoricheskie-stili/avtonomnaya-ustanovka-pyleudaleniya-rupes-kr2a-tehnicheskie-harakteristiki/" class="button-red">Скачать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src = "./js/jquery.inputmask.js"></script >
+<script src="./js/kr2a.js"></script>
+</body>
+</html>
